@@ -1,0 +1,7 @@
+.input.radio.required, form div.submit{
+  display: inline-block;
+}
+
+form .submit input[type="submit"]{
+  font-size: 48px;
+}

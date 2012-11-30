@@ -1,0 +1,24 @@
+{
+  // Required
+  "name": "NLP Reformatter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "Remove me after you done your homework.",
+  "permissions": [
+    "http://nlg.csie.ntu.edu.tw/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://nlg.csie.ntu.edu.tw/courses/NLP/project2012/sentiments/edit/*"],
+      "css": ["style.css"],
+      "js": [
+        "tongwen_core.js",
+        "tongwen_table_s2t.js",
+        "tongwen_table_ps2t.js",
+        "me.js"
+      ]
+    }
+  ]
+}
